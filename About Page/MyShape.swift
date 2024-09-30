@@ -1,12 +1,11 @@
 
-//  ContentView.swift
+//  MyShape.swift
 //  About Page
 //
 //  Created by 翁子翔 on 2024/9/25.
 //
 
 import SwiftUI
-
 
 struct MyShape: Shape {
     func path(in rect: CGRect) -> Path {
@@ -22,7 +21,6 @@ struct MyShape: Shape {
 
 #Preview {
     MyShape()
-        .frame(width:200, height:200)
+        .frame(width:100, height:100)
         .foregroundStyle(Color.black)
 }
-
